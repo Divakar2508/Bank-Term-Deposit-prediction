@@ -12,7 +12,7 @@ It is a dataset that describing Portugal bank marketing campaigns results.Conduc
 
 Input variables:
 
-# bank client data:
+Bank client data:
 
 1 - age (numeric)
 
@@ -28,7 +28,7 @@ Input variables:
 
 7 - loan: has personal loan? (categorical: 'no','yes','unknown')
 
-# related with the last contact of the current campaign:
+Related with the last contact of the current campaign:
 
 8 - contact: contact communication type (categorical: 'cellular','telephone')
 
@@ -38,7 +38,7 @@ Input variables:
 
 11 - duration: last contact duration, in seconds (numeric). Important note: this attribute highly affects the output target (e.g., if duration=0 then y='no'). Yet, the duration is not known before a call is performed. Also, after the end of the call y is obviously known. Thus, this input should only be included for benchmark purposes and should be discarded if the intention is to have a realistic predictive model.
 
-# other attributes:
+Other attributes:
 
 12 - campaign: number of contacts performed during this campaign and for this client (numeric, includes last contact)
 
@@ -48,7 +48,7 @@ Input variables:
 
 15 - poutcome: outcome of the previous marketing campaign (categorical: 'failure','nonexistent','success')
 
-# social and economic context attributes
+Social and economic context attributes
 
 16 - emp.var.rate: employment variation rate - quarterly indicator (numeric)
 
