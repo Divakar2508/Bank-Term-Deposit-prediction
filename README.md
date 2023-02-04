@@ -60,4 +60,6 @@ Input variables:
 
 20 - nr.employed: number of employees - quarterly indicator (numeric)
 
+# Final outcomes
+
 In this project, I will analyze the Bank lead's dataset and create a classification algorithm with full end feature engineering and EDA
